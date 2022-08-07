@@ -2,7 +2,7 @@
 Sentiment analysis of live streaming twitter data on covid19
 
 
-1.	Setup is to be made as given in requirement document - Download and Install kafka, elasticsearch and logstash along with the spark to take the streaming tweets from the twitter.
+1.	Setup is made based on the requirements document - Installed kafka, elasticsearch and logstash along with the spark to take the streaming tweets from  twitter.
 2.	Credentials to connect to twitter account is passed through command line arguments which then is used to collect tweets related to covid 19 from twitter. Then we have done sentiment analysis and sent the sentiments to elk stack.
 3.	Start the logstash, zookeeper, kafka consumer and producer. Then run the .py file mentioned about in the pyspark.
 4.	The program gets the streaming input of tweets from twitter and computes the sentiment analysis, then sends the logs and required sentiment data format to the logstash.
